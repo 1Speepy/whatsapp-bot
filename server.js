@@ -4,7 +4,7 @@ import axios from "axios";
 const app = express();
 app.use(express.json());
 
-const VERIFY_TOKEN = "my_verification_token"; // you choose this yourself
+const VERIFY_TOKEN = "black_sheep"; // you choose this yourself
 
 // ✅ Webhook verification (Meta will call this once)
 app.get("/webhook", (req, res) => {
